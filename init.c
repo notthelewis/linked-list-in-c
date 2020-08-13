@@ -10,6 +10,7 @@ typedef struct node {
 	struct node * next;
 } node_t;
 
+/* Function definitions */
 void print_list(node_t * head);
 void push_to_start(node_t ** head, int val);
 void push_to_end(node_t	* head, int val);
